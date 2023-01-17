@@ -1,0 +1,497 @@
+/***** Removing search icon *******/
+@media screen and (min-width: 412px){
+    i.fas.fa-search::before{
+      visibility: hidden;
+      display: none;
+    }
+  }
+  @media screen and (min-width: 4300px) and (max-width: 6000px){
+    div.activities-marseille{
+      grid-template-rows: repeat(2, 4vw);
+    }
+    h3.filtre-name{
+      padding-top: 3px;
+    }
+  }
+  @media screen and (min-width: 3000px) and (max-width: 4100px){
+    div.activities-marseille{
+      grid-template-rows: repeat(2, 6vw);
+    }
+  }
+  @media screen and (min-width: 2680px) and (max-width: 3000px){
+    div.activities-marseille{
+      grid-template-rows: repeat(2, 8vw);
+    }
+  }
+  @media screen and (max-width: 1370px){
+    .container{
+      width: unset;
+    }
+  }
+  @media screen and (max-width: 1350px){
+    div.colonnes{
+      margin-left: 5%;
+    }
+  }
+  /*Figcaption resizing*/
+  @media screen and (max-width: 1251px) {
+    #first-part{
+        display: block;
+      }
+    div.grid-first-part{
+        display: grid;
+        grid-template-rows: 250px auto;
+    }
+    div.accomodations-marseille{
+        order: 1;
+        width: 100%;
+        grid-column: 1/6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    h3.caption{
+      font-size: 14px;
+    }
+    h3.caption2{
+      font-size: 14px;
+    }
+    /****Aside***/
+    aside{
+      height: 217px;
+      grid-column-start: 1;
+      grid-column-end: 6;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      width: 100%;
+    }
+    .popular{
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 5vw);
+      width: 100%;
+      padding-right: 40px;
+      column-gap: 20px;
+    }
+    .header2{
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 1;
+      width: 100%;
+    }
+     /****Activités****/
+     #second-part{
+      margin-top: 255px;
+      margin-bottom: 95px;
+    }
+    div.activities-marseille{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 13vw);
+      row-gap: 80px;
+    }
+    div.gallery-item1{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .gallery-item2{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    .gallery-item3{
+      margin-top: 0;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+    .gallery-item4{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .gallery-item5{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    .gallery-img5{
+      height: 100%;
+    }
+    .gallery-item6{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+    /****Footer*****/
+    .column1, .column2, .column3{
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 930px){
+    div.columns{
+      display: block;
+    }
+    .column1, .column2, .column3{
+      width: fit-content;
+    }
+    .column2, .column3{
+      margin-top: 40px;
+    }
+    div.gallery-popular:hover{
+      transition: none;
+      transform: none;
+    }
+  div.gallery-accomodations:hover{
+    transition: none;
+      transform: none;
+  }
+  .gallery-item1:hover,.gallery-item2:hover,.gallery-item3:hover,.gallery-item4:hover,.gallery-item5:hover,.gallery-item6:hover{
+      transition: none;
+      transform: none;
+  } 
+  }
+  @media screen and (max-width: 925px){
+    a.log-in{
+      padding: 30px 0px 30px 20px;
+    }
+    a.log-in:hover{
+      background-color: white;
+      border-top: 3px solid white;
+    }
+    a.accomodations:hover{
+      background-color: white;
+      border-top: 3px solid #0065FC;
+    }
+    a.activities:hover{
+      background-color: white;
+      border-top: 3px solid white;
+    }
+    div.grid-first-part{
+        display: grid;
+        grid-template-rows: 395px auto;
+    }
+    div.accomodations-marseille{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    aside{
+      height: 370px;
+      grid-column-start: 1;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    .popular{
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto auto auto;
+    }
+    div.header2{
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    #img1{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    #img2{
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    #img3{
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+    #second-part{
+      margin-top: 415px;
+    }
+  }
+  @media screen and (max-width: 810px) {
+    div.grid-first-part{
+      grid-template-rows: 560px auto;
+    }
+    div.accomodations-marseille{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(5, 0fr);
+    }
+    .title-first-part{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    #image1{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    #image2{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    #image3{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      margin-bottom: 50px;
+    }
+    #image4{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 3;
+      grid-row-end: 4;
+    }
+    #image5{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 4;
+      grid-row-end: 5;
+    }
+    #image6{
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 4;
+      grid-row-end: 5;
+    }
+    div.afficher-plus{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      margin-top: 20px;
+    }
+    aside{
+      height: 370px;
+    }
+    .popular{
+      display: block;
+    }
+    .gallery-popular{
+      width: 100%;
+    }
+    .header2{
+      margin-bottom: 30px;
+    }
+    #img1, #img2{
+      margin-bottom: 20px;
+    }
+    #img3{
+      margin-top: 0;
+    }
+    aside{
+      height: 95%;
+    }
+    #second-part{
+      margin-top: 745px;
+    }
+  }
+  @media screen and (max-width: 635px) {
+    div.activities-marseille{
+      display: block;
+    }
+    .gallery-img1, .gallery-img2, .gallery-img3, .gallery-img4, .gallery-img5, .gallery-img6{
+      height: 145px;
+    }
+    .gallery-img2, .gallery-img3, .gallery-img4, .gallery-img5, .gallery-img6{
+      margin-top: 20px;
+    }
+    section#second-part{
+      margin-bottom: 55px;
+    }
+  } 
+  @media screen and (max-width: 570px) {
+    header.header{
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+    .logo{
+      margin-left: 27px;
+    }
+    nav.nav-bar{
+      width: 100%;
+      justify-content: space-around;
+      position: relative;
+    }
+    nav.nav-bar:after{
+      content: "";
+      position: absolute;
+      left: 0px;
+      right:0px;
+      bottom: 0px;
+      height: 4px;
+      
+      /* liniar gradient for all browsers */
+      background-image: -webkit-linear-gradient(0deg, #0065FC 50%,#F2F2F2 50%);
+      background-image:-moz-linear-gradient(0deg, #0065FC 50%,#F2F2F2 50%);
+      background-image: -o-linear-gradient(0deg, #0065FC 50%,#F2F2F2 50%);
+    }
+    a.log-in{
+      display: block;
+      width: fit-content;
+      position: absolute;
+      padding: 26px 0px 8px 20px;
+      top: 0;
+      right: 5%;
+    }
+    a.accomodations{
+      display: flex;
+      border-top: 3px solid white;
+    }
+    a.accomodations:hover{
+      border-top: 3px solid white;
+    }
+    h1{
+      margin-top: 30px;
+    }
+    div.grid-first-part{
+      grid-template-rows: 545px auto;
+    }
+    div.accomodations-marseille{
+      display: block;
+      height: 1400px;
+    }
+    #first-part{
+      height: 675px;
+    }
+    .gallery-accomodations{
+      height: 160px;
+    }
+    #image1{
+      margin-top: 20px;
+    }
+    #image4, #image5, #image6{
+      margin-bottom: 50px;
+    }
+    .most-popular{
+      margin-top: 75px;
+    }
+    aside{
+      height: 520px;
+    }
+    .gallery-popular{
+      height: 125px;
+    }
+    #second-part{
+      margin-top: 1270px;
+    }
+}
+@media screen and (max-width: 520px){
+  h2.filters{
+    width: 90%;
+  }
+  div.filters{
+    width: 95%;
+  }
+}
+@media screen and (max-width: 440px){
+  i.fas.fa-info{
+    padding: 4px 7px;
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 411px){
+  header.header{
+    width: 100%;
+  }
+  .logo{
+    margin-left: 18px;
+  }
+  input{
+    margin-top: 0;
+    width: 80%;
+  }
+    form.search{
+      margin-left: 3%;
+    }
+    span.place-icon{
+      padding: 14px 20px;
+      border-radius: 15px 0 0 15px;
+    }
+    .search-button{
+      display: none;
+    }
+    input{
+      position: relative;
+      width: 80%;
+      height: 50px;
+      padding: 0 28px;
+      border-radius: 0 15px 15px 0;
+      border: 1px solid #F2F2F2;
+     }
+     form.search{
+      display: flex;
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 30px;
+    }
+    i.fas.fa-search{
+      position: absolute;
+      background-color: #0065FC;
+      border-radius: 15px;
+      right: 5%;
+      padding: 17px 19px;
+    }
+    .fas.fa-search:before{
+      color: white;
+    }
+    div.filters{
+      width: 90%;
+    }
+}
+@media screen and (max-width: 375px){
+  section#first-part{
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  div.accomodations-marseille{
+    background-color: white;
+    padding: 0;
+    margin-left: 5%;
+    width: 90%;
+  }
+  div.title-first-part{
+    background-color: white;
+  }
+  aside{
+    width: 100%;
+    border-radius: 0;
+  }
+  .popular{
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  section#second-part{
+    margin-bottom: 22px;
+    margin-top: 1235px;
+  }
+  div.columns{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 310px){
+  input{
+    padding: 0 3px;
+  }
+}
